@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: dodgerblue;
+}
+img {
+  height: 35px;
+  margin: 20px;
+}
+
+form {
+  width: 400px;
+  background: white;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+
+fieldset {
+  background: white;
+  border: none;
+  border-radius: 5px;
+  padding: 40px;
+  text-align: left;
+}
+
+legend {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+input, button {
+  margin: 20px 0;
+  display: block;
+  height: 55px;
+  width: 320px;
+  padding: 15px;
+}
+input {
+  text-align: left;
+  border: 2px solid silver;
+}
+button {
+  border: none;
+  background: mediumseagreen;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+button:hover {
+  background: rgb(1, 110, 59);
+  color: white;
+}
+
+p {
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(1, 110, 59);
+}
